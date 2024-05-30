@@ -41,10 +41,10 @@ var Tad = document.createElement('div');
 Tad.id = 'Tad';
 
 var TadTitle = document.createElement('p');
-TadTitle.appendChild.arguments('TadTitle');
+TadTitle.classList.add('TadTitle');
 
 var TadDesc = document.createElement('p');
-TadDesc.appendChild.arguments('TadDesc');
+TadDesc.classList.add('TadDesc');
 
 Tad.appendChild(TadTitle);
 Tad.appendChild(TadDesc);
